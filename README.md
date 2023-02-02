@@ -1,5 +1,5 @@
 **docker-swarm-using-terraform-ansible**
-
+https://medium.com/@ratulbasak93/deploy-swarm-cluster-in-aws-using-terraform-ansible-5170d08a7b9c
 A node in a swarm cluster is any machine with docker engine installed and capable of hosting containers/services (When we run docker engine under swarm mode we often call applications as services). This is also referred as Docker node. A Docker node can be a physical machine or one or more virtual machines running on a physical host or cloud server. It is recommended to spread your docker nodes across multiple physical machines to provide availability and reliability for the applications running on the hosts. Docker Swarm environment consists of one or more manager nodes. To deploy an application on Docker Swarm we submit a request in the form of service definition to a manager node. Manager node performs orchestration and cluster management functions required to maintain the desired state of the farm. If there are multiple manager nodes in a swarm, the nodes elect a leader to conduct orchestration which implements leader election strategy.
 
 Step-1
